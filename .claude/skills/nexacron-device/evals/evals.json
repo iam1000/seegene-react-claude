@@ -1,0 +1,380 @@
+[
+  {
+    "input": "Acceleration 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Acceleration",
+      "accuracy",
+      "id",
+      "name",
+      "getCurrentAcceleration",
+      "watchStart",
+      "watchStop"
+    ],
+    "description": "Acceleration 기본 API 조회"
+  },
+  {
+    "input": "Acceleration의 accuracy 속성 사용법을 알려줘",
+    "expected_output_contains": ["accuracy", "Acceleration"],
+    "description": "Acceleration.accuracy 속성 사용법"
+  },
+  {
+    "input": "Acceleration.getCurrentAcceleration() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["getCurrentAcceleration", "Acceleration"],
+    "description": "Acceleration.getCurrentAcceleration() 메서드 상세"
+  },
+  {
+    "input": "Acceleration의 onrecverror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onrecverror", "function"],
+    "description": "Acceleration.onrecverror 이벤트 핸들러"
+  },
+  {
+    "input": "AudioPlayer 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "AudioPlayer",
+      "currentpos",
+      "duration",
+      "id",
+      "load",
+      "movePos",
+      "pause"
+    ],
+    "description": "AudioPlayer 기본 API 조회"
+  },
+  {
+    "input": "AudioPlayer의 currentpos 속성 사용법을 알려줘",
+    "expected_output_contains": ["currentpos", "AudioPlayer"],
+    "description": "AudioPlayer.currentpos 속성 사용법"
+  },
+  {
+    "input": "AudioPlayer.load() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["load", "AudioPlayer"],
+    "description": "AudioPlayer.load() 메서드 상세"
+  },
+  {
+    "input": "AudioPlayer의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "AudioPlayer.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "AudioRecorder 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "AudioRecorder",
+      "audiofile",
+      "audioformat",
+      "channelconfig",
+      "pause",
+      "recordingStart",
+      "recordingStop"
+    ],
+    "description": "AudioRecorder 기본 API 조회"
+  },
+  {
+    "input": "AudioRecorder의 audiofile 속성 사용법을 알려줘",
+    "expected_output_contains": ["audiofile", "AudioRecorder"],
+    "description": "AudioRecorder.audiofile 속성 사용법"
+  },
+  {
+    "input": "AudioRecorder.pause() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["pause", "AudioRecorder"],
+    "description": "AudioRecorder.pause() 메서드 상세"
+  },
+  {
+    "input": "AudioRecorder의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "AudioRecorder.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "BluetoothLE 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "BluetoothLE",
+      "id",
+      "name",
+      "connect",
+      "disconnect",
+      "discoverService"
+    ],
+    "description": "BluetoothLE 기본 API 조회"
+  },
+  {
+    "input": "BluetoothLE의 id 속성 사용법을 알려줘",
+    "expected_output_contains": ["id", "BluetoothLE"],
+    "description": "BluetoothLE.id 속성 사용법"
+  },
+  {
+    "input": "BluetoothLE.connect() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["connect", "BluetoothLE"],
+    "description": "BluetoothLE.connect() 메서드 상세"
+  },
+  {
+    "input": "BluetoothLE의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "BluetoothLE.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "Camera 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Camera", "encodingtype", "gettype", "id", "takePicture"],
+    "description": "Camera 기본 API 조회"
+  },
+  {
+    "input": "Camera의 encodingtype 속성 사용법을 알려줘",
+    "expected_output_contains": ["encodingtype", "Camera"],
+    "description": "Camera.encodingtype 속성 사용법"
+  },
+  {
+    "input": "Camera.takePicture() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["takePicture", "Camera"],
+    "description": "Camera.takePicture() 메서드 상세"
+  },
+  {
+    "input": "Camera의 oncapture 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["oncapture", "function"],
+    "description": "Camera.oncapture 이벤트 핸들러"
+  },
+  {
+    "input": "Contact 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Contact", "addresses", "birthday", "categories"],
+    "description": "Contact 기본 API 조회"
+  },
+  {
+    "input": "Contact의 addresses 속성 사용법을 알려줘",
+    "expected_output_contains": ["addresses", "Contact"],
+    "description": "Contact.addresses 속성 사용법"
+  },
+  {
+    "input": "ContactSet 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["ContactSet", "id", "name", "parent", "append", "query", "remove"],
+    "description": "ContactSet 기본 API 조회"
+  },
+  {
+    "input": "ContactSet의 id 속성 사용법을 알려줘",
+    "expected_output_contains": ["id", "ContactSet"],
+    "description": "ContactSet.id 속성 사용법"
+  },
+  {
+    "input": "ContactSet.append() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["append", "ContactSet"],
+    "description": "ContactSet.append() 메서드 상세"
+  },
+  {
+    "input": "ContactSet의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "ContactSet.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "ExternalAPI 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "ExternalAPI",
+      "id",
+      "name",
+      "parent",
+      "execExtAPI",
+      "isAccessible"
+    ],
+    "description": "ExternalAPI 기본 API 조회"
+  },
+  {
+    "input": "ExternalAPI의 id 속성 사용법을 알려줘",
+    "expected_output_contains": ["id", "ExternalAPI"],
+    "description": "ExternalAPI.id 속성 사용법"
+  },
+  {
+    "input": "ExternalAPI.execExtAPI() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["execExtAPI", "ExternalAPI"],
+    "description": "ExternalAPI.execExtAPI() 메서드 상세"
+  },
+  {
+    "input": "ExternalAPI의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "ExternalAPI.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "Geolocation 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Geolocation",
+      "coords",
+      "id",
+      "name",
+      "getCurrentPosition",
+      "watchStart",
+      "watchStop"
+    ],
+    "description": "Geolocation 기본 API 조회"
+  },
+  {
+    "input": "Geolocation의 coords 속성 사용법을 알려줘",
+    "expected_output_contains": ["coords", "Geolocation"],
+    "description": "Geolocation.coords 속성 사용법"
+  },
+  {
+    "input": "Geolocation.getCurrentPosition() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["getCurrentPosition", "Geolocation"],
+    "description": "Geolocation.getCurrentPosition() 메서드 상세"
+  },
+  {
+    "input": "Geolocation의 onrecverror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onrecverror", "function"],
+    "description": "Geolocation.onrecverror 이벤트 핸들러"
+  },
+  {
+    "input": "ImagePicker 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["ImagePicker", "encodingtype", "gettype", "id", "open"],
+    "description": "ImagePicker 기본 API 조회"
+  },
+  {
+    "input": "ImagePicker의 encodingtype 속성 사용법을 알려줘",
+    "expected_output_contains": ["encodingtype", "ImagePicker"],
+    "description": "ImagePicker.encodingtype 속성 사용법"
+  },
+  {
+    "input": "ImagePicker.open() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["open", "ImagePicker"],
+    "description": "ImagePicker.open() 메서드 상세"
+  },
+  {
+    "input": "ImagePicker의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "ImagePicker.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "LiteDBConnection 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "LiteDBConnection",
+      "async",
+      "busytimeout",
+      "datasource",
+      "begin",
+      "close",
+      "commit"
+    ],
+    "description": "LiteDBConnection 기본 API 조회"
+  },
+  {
+    "input": "LiteDBConnection의 async 속성 사용법을 알려줘",
+    "expected_output_contains": ["async", "LiteDBConnection"],
+    "description": "LiteDBConnection.async 속성 사용법"
+  },
+  {
+    "input": "LiteDBConnection.begin() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["begin", "LiteDBConnection"],
+    "description": "LiteDBConnection.begin() 메서드 상세"
+  },
+  {
+    "input": "LiteDBConnection의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "LiteDBConnection.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "LiteDBStatement 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "LiteDBStatement",
+      "async",
+      "id",
+      "ldbconnection",
+      "close",
+      "executeQuery",
+      "executeUpdate"
+    ],
+    "description": "LiteDBStatement 기본 API 조회"
+  },
+  {
+    "input": "LiteDBStatement의 async 속성 사용법을 알려줘",
+    "expected_output_contains": ["async", "LiteDBStatement"],
+    "description": "LiteDBStatement.async 속성 사용법"
+  },
+  {
+    "input": "LiteDBStatement.close() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["close", "LiteDBStatement"],
+    "description": "LiteDBStatement.close() 메서드 상세"
+  },
+  {
+    "input": "LiteDBStatement의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "LiteDBStatement.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "Network 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Network",
+      "availabletype",
+      "id",
+      "name",
+      "isReachable",
+      "watchStart",
+      "watchStop"
+    ],
+    "description": "Network 기본 API 조회"
+  },
+  {
+    "input": "Network의 availabletype 속성 사용법을 알려줘",
+    "expected_output_contains": ["availabletype", "Network"],
+    "description": "Network.availabletype 속성 사용법"
+  },
+  {
+    "input": "Network.isReachable() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["isReachable", "Network"],
+    "description": "Network.isReachable() 메서드 상세"
+  },
+  {
+    "input": "Network의 onrecverror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onrecverror", "function"],
+    "description": "Network.onrecverror 이벤트 핸들러"
+  },
+  {
+    "input": "Phone 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Phone", "makeCall"],
+    "description": "Phone 기본 API 조회"
+  },
+  {
+    "input": "Phone.makeCall() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["makeCall", "Phone"],
+    "description": "Phone.makeCall() 메서드 상세"
+  },
+  {
+    "input": "Sms 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Sms",
+      "id",
+      "message",
+      "name",
+      "deleteMessage",
+      "readMessageList",
+      "recvStart"
+    ],
+    "description": "Sms 기본 API 조회"
+  },
+  {
+    "input": "Sms의 id 속성 사용법을 알려줘",
+    "expected_output_contains": ["id", "Sms"],
+    "description": "Sms.id 속성 사용법"
+  },
+  {
+    "input": "Sms.deleteMessage() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["deleteMessage", "Sms"],
+    "description": "Sms.deleteMessage() 메서드 상세"
+  },
+  {
+    "input": "Sms의 cansendmessage 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["cansendmessage", "function"],
+    "description": "Sms.cansendmessage 이벤트 핸들러"
+  },
+  {
+    "input": "Vibrator 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Vibrator", "id", "name", "parent", "hasVibrator", "play", "stop"],
+    "description": "Vibrator 기본 API 조회"
+  },
+  {
+    "input": "Vibrator의 id 속성 사용법을 알려줘",
+    "expected_output_contains": ["id", "Vibrator"],
+    "description": "Vibrator.id 속성 사용법"
+  },
+  {
+    "input": "Vibrator.hasVibrator() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["hasVibrator", "Vibrator"],
+    "description": "Vibrator.hasVibrator() 메서드 상세"
+  },
+  {
+    "input": "Vibrator의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "Vibrator.onerror 이벤트 핸들러"
+  }
+]

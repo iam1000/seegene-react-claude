@@ -1,0 +1,26 @@
+{
+  "component": "DomParser",
+  "prefix": "Script_Nexacro Objects_DomParser",
+  "file_count": 15,
+  "property_count": 1,
+  "method_count": 13,
+  "event_count": 1,
+  "property_names": ["name"],
+  "method_names": [
+    "addEvent",
+    "addEventHandler",
+    "addEventHandlerLookup",
+    "clearEventHandler",
+    "findEventHandler",
+    "getEventHandler",
+    "insertEventHandler",
+    "parseFromString",
+    "removeEvent",
+    "removeEventHandler",
+    "removeEventHandlerLookup",
+    "setEventHandler",
+    "setEventHandlerLookup"
+  ],
+  "event_names": ["onerror"],
+  "sub_objects": {}
+}

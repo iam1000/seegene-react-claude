@@ -1,0 +1,58 @@
+[
+  {
+    "input": "Menu 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Menu",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Menu 기본 API 조회"
+  },
+  {
+    "input": "Menu의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Menu"],
+    "description": "Menu.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Menu.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Menu"],
+    "description": "Menu.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Menu의 oncontextmenu 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["oncontextmenu", "function"],
+    "description": "Menu.oncontextmenu 이벤트 핸들러"
+  },
+  {
+    "input": "PopupMenu 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "PopupMenu",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "PopupMenu 기본 API 조회"
+  },
+  {
+    "input": "PopupMenu의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "PopupMenu"],
+    "description": "PopupMenu.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "PopupMenu.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "PopupMenu"],
+    "description": "PopupMenu.addEvent() 메서드 상세"
+  },
+  {
+    "input": "PopupMenu의 oncloseup 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["oncloseup", "function"],
+    "description": "PopupMenu.oncloseup 이벤트 핸들러"
+  }
+]

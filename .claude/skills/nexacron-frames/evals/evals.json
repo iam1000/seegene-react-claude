@@ -1,0 +1,170 @@
+[
+  {
+    "input": "MainFrame 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "MainFrame",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addEventHandler",
+      "addEventHandlerLookup",
+      "alert"
+    ],
+    "description": "MainFrame 기본 API 조회"
+  },
+  {
+    "input": "MainFrame의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "MainFrame"],
+    "description": "MainFrame.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "MainFrame.addEventHandler() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEventHandler", "MainFrame"],
+    "description": "MainFrame.addEventHandler() 메서드 상세"
+  },
+  {
+    "input": "MainFrame의 onactivate 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onactivate", "function"],
+    "description": "MainFrame.onactivate 이벤트 핸들러"
+  },
+  {
+    "input": "ChildFrame 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "ChildFrame",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addEventHandler",
+      "addEventHandlerLookup",
+      "alert"
+    ],
+    "description": "ChildFrame 기본 API 조회"
+  },
+  {
+    "input": "ChildFrame의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "ChildFrame"],
+    "description": "ChildFrame.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "ChildFrame.addEventHandler() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEventHandler", "ChildFrame"],
+    "description": "ChildFrame.addEventHandler() 메서드 상세"
+  },
+  {
+    "input": "ChildFrame의 onactivate 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onactivate", "function"],
+    "description": "ChildFrame.onactivate 이벤트 핸들러"
+  },
+  {
+    "input": "FrameSet 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "FrameSet",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addChild",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "FrameSet 기본 API 조회"
+  },
+  {
+    "input": "FrameSet의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "FrameSet"],
+    "description": "FrameSet.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "FrameSet.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "FrameSet"],
+    "description": "FrameSet.addChild() 메서드 상세"
+  },
+  {
+    "input": "FrameSet의 onactivate 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onactivate", "function"],
+    "description": "FrameSet.onactivate 이벤트 핸들러"
+  },
+  {
+    "input": "HFrameSet 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "HFrameSet",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addChild",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "HFrameSet 기본 API 조회"
+  },
+  {
+    "input": "HFrameSet의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "HFrameSet"],
+    "description": "HFrameSet.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "HFrameSet.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "HFrameSet"],
+    "description": "HFrameSet.addChild() 메서드 상세"
+  },
+  {
+    "input": "HFrameSet의 onactivate 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onactivate", "function"],
+    "description": "HFrameSet.onactivate 이벤트 핸들러"
+  },
+  {
+    "input": "VFrameSet 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "VFrameSet",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addChild",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "VFrameSet 기본 API 조회"
+  },
+  {
+    "input": "VFrameSet의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "VFrameSet"],
+    "description": "VFrameSet.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "VFrameSet.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "VFrameSet"],
+    "description": "VFrameSet.addChild() 메서드 상세"
+  },
+  {
+    "input": "VFrameSet의 onactivate 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onactivate", "function"],
+    "description": "VFrameSet.onactivate 이벤트 핸들러"
+  },
+  {
+    "input": "TileFrameSet 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "TileFrameSet",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addChild",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "TileFrameSet 기본 API 조회"
+  },
+  {
+    "input": "TileFrameSet의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "TileFrameSet"],
+    "description": "TileFrameSet.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "TileFrameSet.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "TileFrameSet"],
+    "description": "TileFrameSet.addChild() 메서드 상세"
+  },
+  {
+    "input": "TileFrameSet의 onactivate 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onactivate", "function"],
+    "description": "TileFrameSet.onactivate 이벤트 핸들러"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "component": "DataObject",
+  "prefix": "Data Objects_DataObject",
+  "file_count": 36,
+  "property_count": 7,
+  "method_count": 23,
+  "event_count": 6,
+  "property_names": ["data", "enableevent", "id", "name", "parent", "preload", "url"],
+  "method_names": [
+    "addEvent",
+    "addEventHandler",
+    "addEventHandlerLookup",
+    "clearChangedInfo",
+    "clearEventHandler",
+    "destroy",
+    "findEventHandler",
+    "getAllResponseHeaders",
+    "getChangedInfo",
+    "getEventHandler",
+    "getObjectByPath",
+    "getResponse",
+    "getResponseHeader",
+    "insertEventHandler",
+    "load",
+    "removeChangedInfo",
+    "removeEvent",
+    "removeEventHandler",
+    "removeEventHandlerLookup",
+    "request",
+    "serializeToString",
+    "setEventHadlerLookup",
+    "setEventHandler"
+  ],
+  "event_names": [
+    "ondatachanged",
+    "onerror",
+    "onload",
+    "onloaddatasets",
+    "onsuccess",
+    "onvaluechanged"
+  ],
+  "sub_objects": {}
+}

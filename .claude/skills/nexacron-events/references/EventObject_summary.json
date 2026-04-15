@@ -1,0 +1,12 @@
+{
+  "component": "EventObject",
+  "prefix": "Event Objects_EventObject",
+  "file_count": 3,
+  "property_count": 2,
+  "method_count": 1,
+  "event_count": 0,
+  "property_names": ["length", "name"],
+  "method_names": ["fireEvent"],
+  "event_names": [],
+  "sub_objects": {}
+}

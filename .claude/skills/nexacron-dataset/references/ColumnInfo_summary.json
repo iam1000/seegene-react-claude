@@ -1,0 +1,12 @@
+{
+  "component": "ColumnInfo",
+  "prefix": "Data Objects_ColumnInfo",
+  "file_count": 6,
+  "property_count": 6,
+  "method_count": 0,
+  "event_count": 0,
+  "property_names": ["datapath", "name", "prop", "size", "sumtext", "type"],
+  "method_names": [],
+  "event_names": [],
+  "sub_objects": {}
+}

@@ -1,0 +1,47 @@
+{
+  "component": "ExcelImportObject",
+  "prefix": "Misc. Objects_ExcelImportObject",
+  "file_count": 36,
+  "property_count": 12,
+  "method_count": 15,
+  "event_count": 2,
+  "property_names": [
+    "commandversion",
+    "commdataformat",
+    "filefilter",
+    "filefilterindex",
+    "importfilemode",
+    "importtype",
+    "importurl",
+    "name",
+    "quotechar",
+    "separator",
+    "userawdatevalue",
+    "userawnumbervalue"
+  ],
+  "method_names": [
+    "addEvent",
+    "addEventHandler",
+    "addEventHandlerLookup",
+    "clearEventHandler",
+    "destroy",
+    "findEventHandler",
+    "getEventHandler",
+    "importData",
+    "importDataEx",
+    "insertEventHandler",
+    "removeEvent",
+    "removeEventHandler",
+    "removeEventHandlerLookup",
+    "setEventHandler",
+    "setEventHandlerLookup"
+  ],
+  "event_names": ["onerror", "onsuccess"],
+  "sub_objects": {
+    "ImportTypes": {
+      "property_count": 5,
+      "method_count": 0,
+      "event_count": 0
+    }
+  }
+}

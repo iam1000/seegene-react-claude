@@ -1,0 +1,22 @@
+{
+  "component": "BluetoothLE",
+  "prefix": "DeviceAPI_BluetoothLE",
+  "file_count": 15,
+  "property_count": 2,
+  "method_count": 9,
+  "event_count": 4,
+  "property_names": ["id", "name"],
+  "method_names": [
+    "connect",
+    "disconnect",
+    "discoverService",
+    "readCharacteristic",
+    "scanStart",
+    "scanStop",
+    "subscribe",
+    "unsubscribe",
+    "writeCharacteristic"
+  ],
+  "event_names": ["onerror", "onscanresult", "onsubscriberesult", "onsuccess"],
+  "sub_objects": {}
+}

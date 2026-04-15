@@ -1,0 +1,21 @@
+{
+  "component": "LiteDBConnection",
+  "prefix": "DeviceAPI_LiteDBConnection",
+  "file_count": 16,
+  "property_count": 8,
+  "method_count": 6,
+  "event_count": 2,
+  "property_names": [
+    "async",
+    "busytimeout",
+    "datasource",
+    "id",
+    "name",
+    "openflag",
+    "parent",
+    "preconnect"
+  ],
+  "method_names": ["begin", "close", "commit", "isConnected", "open", "rollback"],
+  "event_names": ["onerror", "onsuccess"],
+  "sub_objects": {}
+}

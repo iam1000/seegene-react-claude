@@ -1,0 +1,55 @@
+{
+  "component": "Application",
+  "prefix": "Application",
+  "file_count": 79,
+  "property_count": 7,
+  "method_count": 25,
+  "event_count": 10,
+  "property_names": ["all", "licenseurl", "mainframe", "name", "screenid", "trays", "version"],
+  "method_names": [
+    "addEventHandler",
+    "addEventHandlerLookup",
+    "addTray",
+    "addVariable",
+    "alert",
+    "cancelTransaction",
+    "clearEventHandler",
+    "confirm",
+    "exit",
+    "findEventHandler",
+    "getActiveForm",
+    "getActiveFrame",
+    "getEventHandler",
+    "insertEventHandler",
+    "isExistVariable",
+    "lookup",
+    "removeEventHandler",
+    "removeEventHandlerLookup",
+    "removeTray",
+    "removeVariable",
+    "setEventHandler",
+    "setEventHandlerLookup",
+    "setVariable",
+    "trace",
+    "transaction"
+  ],
+  "event_names": [
+    "onafteruserconfirm",
+    "onbeforeexit",
+    "onbeforeuserconfirm",
+    "onduplicateexecution",
+    "onerror",
+    "onexit",
+    "onload",
+    "onloadforms",
+    "onloadingappvariables",
+    "onnotification"
+  ],
+  "sub_objects": {
+    "Tray": {
+      "property_count": 14,
+      "method_count": 11,
+      "event_count": 8
+    }
+  }
+}

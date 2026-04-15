@@ -1,0 +1,68 @@
+[
+  {
+    "input": "TCPClientSocket 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "TCPClientSocket",
+      "address",
+      "errorcode",
+      "errormsg",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "TCPClientSocket 기본 API 조회"
+  },
+  {
+    "input": "TCPClientSocket의 address 속성 사용법을 알려줘",
+    "expected_output_contains": ["address", "TCPClientSocket"],
+    "description": "TCPClientSocket.address 속성 사용법"
+  },
+  {
+    "input": "TCPClientSocket.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "TCPClientSocket"],
+    "description": "TCPClientSocket.addEvent() 메서드 상세"
+  },
+  {
+    "input": "TCPClientSocket의 ondataarrived 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["ondataarrived", "function"],
+    "description": "TCPClientSocket.ondataarrived 이벤트 핸들러"
+  },
+  {
+    "input": "XPush 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "XPush",
+      "controlretry",
+      "debug",
+      "errorcode",
+      "connect",
+      "disconnect",
+      "getCurrentIP"
+    ],
+    "description": "XPush 기본 API 조회"
+  },
+  {
+    "input": "XPush의 controlretry 속성 사용법을 알려줘",
+    "expected_output_contains": ["controlretry", "XPush"],
+    "description": "XPush.controlretry 속성 사용법"
+  },
+  {
+    "input": "XPush.connect() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["connect", "XPush"],
+    "description": "XPush.connect() 메서드 상세"
+  },
+  {
+    "input": "XPush의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "XPush.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "NexacroAPI 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["NexacroAPI", "addErrorMessage", "base64Decode", "base64Encode"],
+    "description": "NexacroAPI 기본 API 조회"
+  },
+  {
+    "input": "NexacroAPI.addErrorMessage() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addErrorMessage", "NexacroAPI"],
+    "description": "NexacroAPI.addErrorMessage() 메서드 상세"
+  }
+]

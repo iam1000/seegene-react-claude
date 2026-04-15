@@ -1,0 +1,114 @@
+[
+  {
+    "input": "Edit 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Edit",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Edit 기본 API 조회"
+  },
+  {
+    "input": "Edit의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Edit"],
+    "description": "Edit.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Edit.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Edit"],
+    "description": "Edit.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Edit의 canchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canchange", "function"],
+    "description": "Edit.canchange 이벤트 핸들러"
+  },
+  {
+    "input": "MaskEdit 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "MaskEdit",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "MaskEdit 기본 API 조회"
+  },
+  {
+    "input": "MaskEdit의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "MaskEdit"],
+    "description": "MaskEdit.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "MaskEdit.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "MaskEdit"],
+    "description": "MaskEdit.addEvent() 메서드 상세"
+  },
+  {
+    "input": "MaskEdit의 canchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canchange", "function"],
+    "description": "MaskEdit.canchange 이벤트 핸들러"
+  },
+  {
+    "input": "TextArea 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "TextArea",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "TextArea 기본 API 조회"
+  },
+  {
+    "input": "TextArea의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "TextArea"],
+    "description": "TextArea.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "TextArea.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "TextArea"],
+    "description": "TextArea.addEvent() 메서드 상세"
+  },
+  {
+    "input": "TextArea의 canchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canchange", "function"],
+    "description": "TextArea.canchange 이벤트 핸들러"
+  },
+  {
+    "input": "Spin 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Spin",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Spin 기본 API 조회"
+  },
+  {
+    "input": "Spin의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Spin"],
+    "description": "Spin.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Spin.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Spin"],
+    "description": "Spin.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Spin의 canchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canchange", "function"],
+    "description": "Spin.canchange 이벤트 핸들러"
+  }
+]

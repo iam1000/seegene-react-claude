@@ -1,0 +1,68 @@
+[
+  {
+    "input": "Application 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Application",
+      "all",
+      "licenseurl",
+      "mainframe",
+      "addEventHandler",
+      "addEventHandlerLookup",
+      "addTray"
+    ],
+    "description": "Application 기본 API 조회"
+  },
+  {
+    "input": "Application의 all 속성 사용법을 알려줘",
+    "expected_output_contains": ["all", "Application"],
+    "description": "Application.all 속성 사용법"
+  },
+  {
+    "input": "Application.addEventHandler() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEventHandler", "Application"],
+    "description": "Application.addEventHandler() 메서드 상세"
+  },
+  {
+    "input": "Application의 onafteruserconfirm 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onafteruserconfirm", "function"],
+    "description": "Application.onafteruserconfirm 이벤트 핸들러"
+  },
+  {
+    "input": "Environment 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Environment",
+      "accessibilitybackwardkey",
+      "accessibilitydescreadtype",
+      "accessibilityfirstovermessage",
+      "findAccessibility",
+      "getDeviceAdaptor",
+      "playAccessibility"
+    ],
+    "description": "Environment 기본 API 조회"
+  },
+  {
+    "input": "Environment의 accessibilitybackwardkey 속성 사용법을 알려줘",
+    "expected_output_contains": ["accessibilitybackwardkey", "Environment"],
+    "description": "Environment.accessibilitybackwardkey 속성 사용법"
+  },
+  {
+    "input": "Environment.findAccessibility() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["findAccessibility", "Environment"],
+    "description": "Environment.findAccessibility() 메서드 상세"
+  },
+  {
+    "input": "Environment의 onaccessibilitykey 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onaccessibilitykey", "function"],
+    "description": "Environment.onaccessibilitykey 이벤트 핸들러"
+  },
+  {
+    "input": "Screen 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Screen", "id", "specifiedlocale", "specifiedos"],
+    "description": "Screen 기본 API 조회"
+  },
+  {
+    "input": "Screen의 id 속성 사용법을 알려줘",
+    "expected_output_contains": ["id", "Screen"],
+    "description": "Screen.id 속성 사용법"
+  }
+]

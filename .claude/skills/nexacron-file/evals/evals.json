@@ -1,0 +1,162 @@
+[
+  {
+    "input": "FileUpload 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "FileUpload",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "FileUpload 기본 API 조회"
+  },
+  {
+    "input": "FileUpload의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "FileUpload"],
+    "description": "FileUpload.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "FileUpload.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "FileUpload"],
+    "description": "FileUpload.addEvent() 메서드 상세"
+  },
+  {
+    "input": "FileUpload의 onappenditem 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onappenditem", "function"],
+    "description": "FileUpload.onappenditem 이벤트 핸들러"
+  },
+  {
+    "input": "FileDownload 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "FileDownload",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-icon",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "FileDownload 기본 API 조회"
+  },
+  {
+    "input": "FileDownload의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "FileDownload"],
+    "description": "FileDownload.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "FileDownload.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "FileDownload"],
+    "description": "FileDownload.addEvent() 메서드 상세"
+  },
+  {
+    "input": "FileDownload의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "FileDownload.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "FileUpTransfer 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "FileUpTransfer",
+      "filelist",
+      "id",
+      "name",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "FileUpTransfer 기본 API 조회"
+  },
+  {
+    "input": "FileUpTransfer의 filelist 속성 사용법을 알려줘",
+    "expected_output_contains": ["filelist", "FileUpTransfer"],
+    "description": "FileUpTransfer.filelist 속성 사용법"
+  },
+  {
+    "input": "FileUpTransfer.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "FileUpTransfer"],
+    "description": "FileUpTransfer.addEvent() 메서드 상세"
+  },
+  {
+    "input": "FileUpTransfer의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "FileUpTransfer.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "FileDownTransfer 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "FileDownTransfer",
+      "downloadfilename",
+      "id",
+      "name",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "FileDownTransfer 기본 API 조회"
+  },
+  {
+    "input": "FileDownTransfer의 downloadfilename 속성 사용법을 알려줘",
+    "expected_output_contains": ["downloadfilename", "FileDownTransfer"],
+    "description": "FileDownTransfer.downloadfilename 속성 사용법"
+  },
+  {
+    "input": "FileDownTransfer.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "FileDownTransfer"],
+    "description": "FileDownTransfer.addEvent() 메서드 상세"
+  },
+  {
+    "input": "FileDownTransfer의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "FileDownTransfer.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "FileDialog 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["FileDialog", "accept", "defaultextension", "filter", "open"],
+    "description": "FileDialog 기본 API 조회"
+  },
+  {
+    "input": "FileDialog의 accept 속성 사용법을 알려줘",
+    "expected_output_contains": ["accept", "FileDialog"],
+    "description": "FileDialog.accept 속성 사용법"
+  },
+  {
+    "input": "FileDialog.open() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["open", "FileDialog"],
+    "description": "FileDialog.open() 메서드 상세"
+  },
+  {
+    "input": "FileDialog의 onclose 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclose", "function"],
+    "description": "FileDialog.onclose 이벤트 핸들러"
+  },
+  {
+    "input": "VirtualFile 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "VirtualFile",
+      "async",
+      "filename",
+      "fullpath",
+      "addEvent",
+      "addEventHandler",
+      "clearEventHandler"
+    ],
+    "description": "VirtualFile 기본 API 조회"
+  },
+  {
+    "input": "VirtualFile의 async 속성 사용법을 알려줘",
+    "expected_output_contains": ["async", "VirtualFile"],
+    "description": "VirtualFile.async 속성 사용법"
+  },
+  {
+    "input": "VirtualFile.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "VirtualFile"],
+    "description": "VirtualFile.addEvent() 메서드 상세"
+  },
+  {
+    "input": "VirtualFile의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "VirtualFile.onerror 이벤트 핸들러"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "component": "Rect",
+  "prefix": "Script_Nexacro Objects_Rect",
+  "file_count": 11,
+  "property_count": 4,
+  "method_count": 7,
+  "event_count": 0,
+  "property_names": ["height", "left", "top", "width"],
+  "method_names": ["clear", "clone", "copy", "equals", "getBottom", "getRight", "isSameSize"],
+  "event_names": [],
+  "sub_objects": {}
+}

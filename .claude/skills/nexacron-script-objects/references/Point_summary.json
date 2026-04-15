@@ -1,0 +1,12 @@
+{
+  "component": "Point",
+  "prefix": "Script_Nexacro Objects_Point",
+  "file_count": 5,
+  "property_count": 2,
+  "method_count": 3,
+  "event_count": 0,
+  "property_names": ["x", "y"],
+  "method_names": ["clone", "copy", "equals"],
+  "event_names": [],
+  "sub_objects": {}
+}

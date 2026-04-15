@@ -1,0 +1,12 @@
+{
+  "component": "Network",
+  "prefix": "DeviceAPI_Network",
+  "file_count": 10,
+  "property_count": 5,
+  "method_count": 3,
+  "event_count": 2,
+  "property_names": ["availabletype", "id", "name", "parent", "timestamp"],
+  "method_names": ["isReachable", "watchStart", "watchStop"],
+  "event_names": ["onrecverror", "onrecvsuccess"],
+  "sub_objects": {}
+}

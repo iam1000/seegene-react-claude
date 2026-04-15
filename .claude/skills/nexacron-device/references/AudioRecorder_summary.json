@@ -1,0 +1,20 @@
+{
+  "component": "AudioRecorder",
+  "prefix": "DeviceAPI_AudioRecorder",
+  "file_count": 14,
+  "property_count": 7,
+  "method_count": 4,
+  "event_count": 3,
+  "property_names": [
+    "audiofile",
+    "audioformat",
+    "channelconfig",
+    "id",
+    "name",
+    "parent",
+    "samplerate"
+  ],
+  "method_names": ["pause", "recordingStart", "recordingStop", "resume"],
+  "event_names": ["onerror", "onrecording", "onstop"],
+  "sub_objects": {}
+}

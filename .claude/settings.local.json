@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls biome.json*)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"console.log\\(typeof require\\('react-router'\\).useNavigate\\)\")"
+    ]
+  }
+}

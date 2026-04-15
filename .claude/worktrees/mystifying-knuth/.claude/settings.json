@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const f=JSON.parse(d)?.tool_input?.file_path||'';if(f&&/\\.tsx?$/.test(f)&&f.includes('/src/')){require('child_process').execSync('pnpm biome check --write \\\"'+f+'\\\"',{stdio:'inherit'})}})\" 2>/dev/null || true",
+            "statusMessage": "Biome 포맷 중..."
+          }
+        ]
+      }
+    ]
+  }
+}

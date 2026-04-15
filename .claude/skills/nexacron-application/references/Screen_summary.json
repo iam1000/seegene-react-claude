@@ -1,0 +1,12 @@
+{
+  "component": "Screen",
+  "prefix": "Screen",
+  "file_count": 6,
+  "property_count": 6,
+  "method_count": 0,
+  "event_count": 0,
+  "property_names": ["id", "specifiedlocale", "specifiedos", "type", "userzoom", "zoomfactortype"],
+  "method_names": [],
+  "event_names": [],
+  "sub_objects": {}
+}

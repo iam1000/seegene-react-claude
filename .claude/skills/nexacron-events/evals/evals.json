@@ -1,0 +1,63 @@
+[
+  {
+    "input": "EventObject 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["EventObject", "length", "name", "fireEvent"],
+    "description": "EventObject 기본 API 조회"
+  },
+  {
+    "input": "EventObject의 length 속성 사용법을 알려줘",
+    "expected_output_contains": ["length", "EventObject"],
+    "description": "EventObject.length 속성 사용법"
+  },
+  {
+    "input": "EventObject.fireEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["fireEvent", "EventObject"],
+    "description": "EventObject.fireEvent() 메서드 상세"
+  },
+  {
+    "input": "BindItem 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "BindItem",
+      "columnid",
+      "compid",
+      "datasetid",
+      "bind",
+      "destroy",
+      "init"
+    ],
+    "description": "BindItem 기본 API 조회"
+  },
+  {
+    "input": "BindItem의 columnid 속성 사용법을 알려줘",
+    "expected_output_contains": ["columnid", "BindItem"],
+    "description": "BindItem.columnid 속성 사용법"
+  },
+  {
+    "input": "BindItem.bind() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["bind", "BindItem"],
+    "description": "BindItem.bind() 메서드 상세"
+  },
+  {
+    "input": "System 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "System",
+      "computername",
+      "cpuarchitecture",
+      "cpucount",
+      "attachChildFrame",
+      "checkDevicePermission",
+      "clearClipboard"
+    ],
+    "description": "System 기본 API 조회"
+  },
+  {
+    "input": "System의 computername 속성 사용법을 알려줘",
+    "expected_output_contains": ["computername", "System"],
+    "description": "System.computername 속성 사용법"
+  },
+  {
+    "input": "System.attachChildFrame() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["attachChildFrame", "System"],
+    "description": "System.attachChildFrame() 메서드 상세"
+  }
+]

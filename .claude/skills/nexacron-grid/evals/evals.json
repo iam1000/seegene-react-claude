@@ -1,0 +1,30 @@
+[
+  {
+    "input": "Grid 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Grid",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Grid 기본 API 조회"
+  },
+  {
+    "input": "Grid의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Grid"],
+    "description": "Grid.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Grid.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Grid"],
+    "description": "Grid.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Grid의 cantreestatuschange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["cantreestatuschange", "function"],
+    "description": "Grid.cantreestatuschange 이벤트 핸들러"
+  }
+]

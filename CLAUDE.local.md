@@ -1,0 +1,1 @@
+기존 Nexacro 소스는 `C:\workspace\seegene-mf-lis-nexacro-master`에 위치.

@@ -1,0 +1,12 @@
+{
+  "component": "ContactSet",
+  "prefix": "DeviceAPI_ContactSet",
+  "file_count": 9,
+  "property_count": 3,
+  "method_count": 4,
+  "event_count": 2,
+  "property_names": ["id", "name", "parent"],
+  "method_names": ["append", "query", "remove", "update"],
+  "event_names": ["onerror", "onsuccess"],
+  "sub_objects": {}
+}

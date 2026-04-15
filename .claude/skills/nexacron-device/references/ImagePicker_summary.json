@@ -1,0 +1,21 @@
+{
+  "component": "ImagePicker",
+  "prefix": "DeviceAPI_ImagePicker",
+  "file_count": 11,
+  "property_count": 8,
+  "method_count": 1,
+  "event_count": 2,
+  "property_names": [
+    "encodingtype",
+    "gettype",
+    "id",
+    "imageheight",
+    "imagequality",
+    "imagewidth",
+    "name",
+    "parent"
+  ],
+  "method_names": ["open"],
+  "event_names": ["onerror", "onsuccess"],
+  "sub_objects": {}
+}

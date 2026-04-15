@@ -1,0 +1,58 @@
+[
+  {
+    "input": "ExcelExportObject 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "ExcelExportObject",
+      "commandversion",
+      "commcompress",
+      "commdataformat",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "ExcelExportObject 기본 API 조회"
+  },
+  {
+    "input": "ExcelExportObject의 commandversion 속성 사용법을 알려줘",
+    "expected_output_contains": ["commandversion", "ExcelExportObject"],
+    "description": "ExcelExportObject.commandversion 속성 사용법"
+  },
+  {
+    "input": "ExcelExportObject.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "ExcelExportObject"],
+    "description": "ExcelExportObject.addEvent() 메서드 상세"
+  },
+  {
+    "input": "ExcelExportObject의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "ExcelExportObject.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "ExcelImportObject 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "ExcelImportObject",
+      "commandversion",
+      "commdataformat",
+      "filefilter",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "ExcelImportObject 기본 API 조회"
+  },
+  {
+    "input": "ExcelImportObject의 commandversion 속성 사용법을 알려줘",
+    "expected_output_contains": ["commandversion", "ExcelImportObject"],
+    "description": "ExcelImportObject.commandversion 속성 사용법"
+  },
+  {
+    "input": "ExcelImportObject.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "ExcelImportObject"],
+    "description": "ExcelImportObject.addEvent() 메서드 상세"
+  },
+  {
+    "input": "ExcelImportObject의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "ExcelImportObject.onerror 이벤트 핸들러"
+  }
+]

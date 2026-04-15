@@ -1,0 +1,28 @@
+{
+  "component": "Contact",
+  "prefix": "DeviceAPI_Contact",
+  "file_count": 15,
+  "property_count": 15,
+  "method_count": 0,
+  "event_count": 0,
+  "property_names": [
+    "addresses",
+    "birthday",
+    "categories",
+    "contactname",
+    "emails",
+    "id",
+    "ims",
+    "name",
+    "nickname",
+    "note",
+    "organizations",
+    "phonenumbers",
+    "photos",
+    "uniqueid",
+    "urls"
+  ],
+  "method_names": [],
+  "event_names": [],
+  "sub_objects": {}
+}

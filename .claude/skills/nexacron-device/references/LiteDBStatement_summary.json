@@ -1,0 +1,12 @@
+{
+  "component": "LiteDBStatement",
+  "prefix": "DeviceAPI_LiteDBStatement",
+  "file_count": 12,
+  "property_count": 7,
+  "method_count": 3,
+  "event_count": 2,
+  "property_names": ["async", "id", "ldbconnection", "name", "parameters", "parent", "query"],
+  "method_names": ["close", "executeQuery", "executeUpdate"],
+  "event_names": ["onerror", "onsuccess"],
+  "sub_objects": {}
+}

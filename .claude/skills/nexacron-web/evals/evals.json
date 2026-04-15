@@ -1,0 +1,137 @@
+[
+  {
+    "input": "WebBrowser 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "WebBrowser",
+      "-nexa-border",
+      "accessibilityaction",
+      "accessibilitydesclevel",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "WebBrowser 기본 API 조회"
+  },
+  {
+    "input": "WebBrowser의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "WebBrowser"],
+    "description": "WebBrowser.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "WebBrowser.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "WebBrowser"],
+    "description": "WebBrowser.addEvent() 메서드 상세"
+  },
+  {
+    "input": "WebBrowser의 ondevicebuttonup 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["ondevicebuttonup", "function"],
+    "description": "WebBrowser.ondevicebuttonup 이벤트 핸들러"
+  },
+  {
+    "input": "WebView 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "WebView",
+      "-nexa-border",
+      "accessibilityaction",
+      "accessibilitydesclevel",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "WebView 기본 API 조회"
+  },
+  {
+    "input": "WebView의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "WebView"],
+    "description": "WebView.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "WebView.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "WebView"],
+    "description": "WebView.addEvent() 메서드 상세"
+  },
+  {
+    "input": "WebView의 ondevicebuttonup 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["ondevicebuttonup", "function"],
+    "description": "WebView.ondevicebuttonup 이벤트 핸들러"
+  },
+  {
+    "input": "GoogleMap 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "GoogleMap",
+      "-nexa-border",
+      "accessibilityaction",
+      "accessibilitydesclevel",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "GoogleMap 기본 API 조회"
+  },
+  {
+    "input": "GoogleMap의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "GoogleMap"],
+    "description": "GoogleMap.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "GoogleMap.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "GoogleMap"],
+    "description": "GoogleMap.addEvent() 메서드 상세"
+  },
+  {
+    "input": "GoogleMap의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "GoogleMap.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "VideoPlayer 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "VideoPlayer",
+      "-nexa-border",
+      "accessibilityaction",
+      "accessibilitydesclevel",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "VideoPlayer 기본 API 조회"
+  },
+  {
+    "input": "VideoPlayer의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "VideoPlayer"],
+    "description": "VideoPlayer.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "VideoPlayer.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "VideoPlayer"],
+    "description": "VideoPlayer.addEvent() 메서드 상세"
+  },
+  {
+    "input": "VideoPlayer의 oncurrenttimechanged 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["oncurrenttimechanged", "function"],
+    "description": "VideoPlayer.oncurrenttimechanged 이벤트 핸들러"
+  },
+  {
+    "input": "Plugin 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Plugin",
+      "-nexa-border",
+      "adjustalpha",
+      "archive",
+      "callMethod",
+      "getOffsetBottom",
+      "getOffsetHeight"
+    ],
+    "description": "Plugin 기본 API 조회"
+  },
+  {
+    "input": "Plugin의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Plugin"],
+    "description": "Plugin.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Plugin.callMethod() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["callMethod", "Plugin"],
+    "description": "Plugin.callMethod() 메서드 상세"
+  }
+]

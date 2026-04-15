@@ -1,0 +1,12 @@
+{
+  "component": "FileDialog",
+  "prefix": "Components_Component_FileDialog",
+  "file_count": 9,
+  "property_count": 7,
+  "method_count": 1,
+  "event_count": 1,
+  "property_names": ["accept", "defaultextension", "filter", "filterindex", "id", "name", "parent"],
+  "method_names": ["open"],
+  "event_names": ["onclose"],
+  "sub_objects": {}
+}

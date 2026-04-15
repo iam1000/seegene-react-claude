@@ -1,0 +1,12 @@
+{
+  "component": "PluginObject",
+  "prefix": "Script_Nexacro Objects_PluginObject",
+  "file_count": 3,
+  "property_count": 0,
+  "method_count": 3,
+  "event_count": 0,
+  "property_names": [],
+  "method_names": ["callMethod", "getProperty", "setProperty"],
+  "event_names": [],
+  "sub_objects": {}
+}

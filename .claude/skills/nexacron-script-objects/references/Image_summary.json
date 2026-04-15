@@ -1,0 +1,12 @@
+{
+  "component": "Image",
+  "prefix": "Script_Nexacro Objects_Image",
+  "file_count": 7,
+  "property_count": 3,
+  "method_count": 2,
+  "event_count": 2,
+  "property_names": ["height", "src", "width"],
+  "method_names": ["getBase64String", "setBase64String"],
+  "event_names": ["onerror", "onload"],
+  "sub_objects": {}
+}

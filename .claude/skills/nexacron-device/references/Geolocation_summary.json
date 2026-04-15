@@ -1,0 +1,12 @@
+{
+  "component": "Geolocation",
+  "prefix": "DeviceAPI_Geolocation",
+  "file_count": 11,
+  "property_count": 6,
+  "method_count": 3,
+  "event_count": 2,
+  "property_names": ["coords", "id", "name", "parent", "sourcetype", "timestamp"],
+  "method_names": ["getCurrentPosition", "watchStart", "watchStop"],
+  "event_names": ["onrecverror", "onrecvsuccess"],
+  "sub_objects": {}
+}

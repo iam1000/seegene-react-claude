@@ -1,0 +1,22 @@
+{
+  "component": "Camera",
+  "prefix": "DeviceAPI_Camera",
+  "file_count": 12,
+  "property_count": 9,
+  "method_count": 1,
+  "event_count": 2,
+  "property_names": [
+    "encodingtype",
+    "gettype",
+    "id",
+    "imageheight",
+    "imagequality",
+    "imagewidth",
+    "name",
+    "parent",
+    "usegallery"
+  ],
+  "method_names": ["takePicture"],
+  "event_names": ["oncapture", "onerror"],
+  "sub_objects": {}
+}

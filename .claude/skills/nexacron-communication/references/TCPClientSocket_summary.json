@@ -1,0 +1,30 @@
+{
+  "component": "TCPClientSocket",
+  "prefix": "Communication Objects_TCPClientSocket",
+  "file_count": 26,
+  "property_count": 6,
+  "method_count": 17,
+  "event_count": 3,
+  "property_names": ["address", "errorcode", "errormsg", "isopen", "name", "port"],
+  "method_names": [
+    "addEvent",
+    "addEventHandler",
+    "addEventHandlerLookup",
+    "clearEventHandler",
+    "close",
+    "findEventHandler",
+    "getEventHandler",
+    "insertEventHandler",
+    "open",
+    "read",
+    "readLine",
+    "removeEvent",
+    "removeEventHandler",
+    "removeEventHandlerLookup",
+    "setEventHandler",
+    "setEventHandlerLookup",
+    "write"
+  ],
+  "event_names": ["ondataarrived", "onerror", "onsuccess"],
+  "sub_objects": {}
+}

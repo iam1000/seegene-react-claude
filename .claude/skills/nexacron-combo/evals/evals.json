@@ -1,0 +1,170 @@
+[
+  {
+    "input": "Combo 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Combo",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Combo 기본 API 조회"
+  },
+  {
+    "input": "Combo의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Combo"],
+    "description": "Combo.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Combo.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Combo"],
+    "description": "Combo.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Combo의 canitemchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canitemchange", "function"],
+    "description": "Combo.canitemchange 이벤트 핸들러"
+  },
+  {
+    "input": "MultiCombo 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "MultiCombo",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "MultiCombo 기본 API 조회"
+  },
+  {
+    "input": "MultiCombo의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "MultiCombo"],
+    "description": "MultiCombo.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "MultiCombo.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "MultiCombo"],
+    "description": "MultiCombo.addEvent() 메서드 상세"
+  },
+  {
+    "input": "MultiCombo의 canitemchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canitemchange", "function"],
+    "description": "MultiCombo.canitemchange 이벤트 핸들러"
+  },
+  {
+    "input": "ListBox 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "ListBox",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "ListBox 기본 API 조회"
+  },
+  {
+    "input": "ListBox의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "ListBox"],
+    "description": "ListBox.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "ListBox.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "ListBox"],
+    "description": "ListBox.addEvent() 메서드 상세"
+  },
+  {
+    "input": "ListBox의 canitemchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canitemchange", "function"],
+    "description": "ListBox.canitemchange 이벤트 핸들러"
+  },
+  {
+    "input": "CheckBox 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "CheckBox",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-icon",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "CheckBox 기본 API 조회"
+  },
+  {
+    "input": "CheckBox의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "CheckBox"],
+    "description": "CheckBox.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "CheckBox.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "CheckBox"],
+    "description": "CheckBox.addEvent() 메서드 상세"
+  },
+  {
+    "input": "CheckBox의 canchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canchange", "function"],
+    "description": "CheckBox.canchange 이벤트 핸들러"
+  },
+  {
+    "input": "CheckBoxSet 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "CheckBoxSet",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "CheckBoxSet 기본 API 조회"
+  },
+  {
+    "input": "CheckBoxSet의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "CheckBoxSet"],
+    "description": "CheckBoxSet.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "CheckBoxSet.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "CheckBoxSet"],
+    "description": "CheckBoxSet.addEvent() 메서드 상세"
+  },
+  {
+    "input": "CheckBoxSet의 canitemchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canitemchange", "function"],
+    "description": "CheckBoxSet.canitemchange 이벤트 핸들러"
+  },
+  {
+    "input": "Radio 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Radio",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Radio 기본 API 조회"
+  },
+  {
+    "input": "Radio의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Radio"],
+    "description": "Radio.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Radio.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Radio"],
+    "description": "Radio.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Radio의 canitemchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canitemchange", "function"],
+    "description": "Radio.canitemchange 이벤트 핸들러"
+  }
+]

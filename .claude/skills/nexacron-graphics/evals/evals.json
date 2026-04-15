@@ -1,0 +1,58 @@
+[
+  {
+    "input": "Graphics 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Graphics",
+      "-nexa-border",
+      "-nexa-rtl-background-image",
+      "background",
+      "addChild",
+      "addEvent",
+      "addEventHandler"
+    ],
+    "description": "Graphics 기본 API 조회"
+  },
+  {
+    "input": "Graphics의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Graphics"],
+    "description": "Graphics.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Graphics.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "Graphics"],
+    "description": "Graphics.addChild() 메서드 상세"
+  },
+  {
+    "input": "Graphics의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "Graphics.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "Sketch 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Sketch",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Sketch 기본 API 조회"
+  },
+  {
+    "input": "Sketch의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Sketch"],
+    "description": "Sketch.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Sketch.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Sketch"],
+    "description": "Sketch.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Sketch의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "Sketch.onclick 이벤트 핸들러"
+  }
+]

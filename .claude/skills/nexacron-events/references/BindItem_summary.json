@@ -1,0 +1,12 @@
+{
+  "component": "BindItem",
+  "prefix": "Misc. Objects_BindItem",
+  "file_count": 9,
+  "property_count": 6,
+  "method_count": 3,
+  "event_count": 0,
+  "property_names": ["columnid", "compid", "datasetid", "name", "parent", "propid"],
+  "method_names": ["bind", "destroy", "init"],
+  "event_names": [],
+  "sub_objects": {}
+}

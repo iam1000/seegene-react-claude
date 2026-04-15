@@ -1,0 +1,53 @@
+{
+  "component": "XPush",
+  "prefix": "Communication Objects_XPush",
+  "file_count": 41,
+  "property_count": 15,
+  "method_count": 18,
+  "event_count": 3,
+  "property_names": [
+    "controlretry",
+    "debug",
+    "errorcode",
+    "errormsg",
+    "iplist",
+    "keepalivetime",
+    "keeptimeout",
+    "layouturl",
+    "name",
+    "projectid",
+    "protocolversion",
+    "retry",
+    "sessionid",
+    "timeout",
+    "userid"
+  ],
+  "method_names": [
+    "connect",
+    "disconnect",
+    "getCurrentIP",
+    "getCurrentPort",
+    "getRegisteredTopics",
+    "getRegisteredTopicsWithUserID",
+    "registerDevice",
+    "registerTopic",
+    "registerTopicWithUserID",
+    "requestMessage",
+    "requestMessageCount",
+    "requestMessageCountWithUserID",
+    "sendResponse",
+    "subscribe",
+    "unregisterDevice",
+    "unregisterTopic",
+    "unregisterTopicWithUserID",
+    "unsubscribe"
+  ],
+  "event_names": ["onerror", "onkeepalive", "onsuccess"],
+  "sub_objects": {
+    "PushMessageObject": {
+      "property_count": 3,
+      "method_count": 0,
+      "event_count": 0
+    }
+  }
+}

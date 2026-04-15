@@ -1,0 +1,8 @@
+{
+    // 다른 vscode와 헷갈리지 않게 하기 위해 activityBar 색상을 바꿈 ㅎㅎ
+    "workbench.colorCustomizations": {
+    "activityBar.background": "#fcd8de",
+    "activityBar.foreground": "#a10505",
+    "activityBar.inactiveForeground": "#ff94a4"
+  }
+}

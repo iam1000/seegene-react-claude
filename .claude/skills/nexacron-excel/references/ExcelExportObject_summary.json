@@ -1,0 +1,76 @@
+{
+  "component": "ExcelExportObject",
+  "prefix": "Misc. Objects_ExcelExportObject",
+  "file_count": 71,
+  "property_count": 22,
+  "method_count": 24,
+  "event_count": 3,
+  "property_names": [
+    "commandversion",
+    "commcompress",
+    "commdataformat",
+    "exportactivemode",
+    "exporteventtype",
+    "exportfilename",
+    "exportfilepassword",
+    "exportfilepath",
+    "exportmessagealert",
+    "exportmessagecomplete",
+    "exportmessageprocess",
+    "exportmessageready",
+    "exporttype",
+    "exportuitype",
+    "exporturl",
+    "exportwordwrap",
+    "filefilter",
+    "filefilterindex",
+    "name",
+    "quotechar",
+    "separator",
+    "transferrowcount"
+  ],
+  "method_names": [
+    "addEvent",
+    "addEventHandler",
+    "addEventHandlerLookup",
+    "addExportItem",
+    "clear",
+    "clearEventHandler",
+    "clearExportItems",
+    "count",
+    "countExportItems",
+    "delExportItem",
+    "destroy",
+    "exportData",
+    "exportDataEx",
+    "exportItems",
+    "findEventHandler",
+    "getEventHandler",
+    "getExportItem",
+    "insertEventHandler",
+    "removeEvent",
+    "removeEventHandler",
+    "removeEventHandlerLookup",
+    "setEventHandler",
+    "setEventHandlerLookup",
+    "setExportItem"
+  ],
+  "event_names": ["onerror", "onprogress", "onsuccess"],
+  "sub_objects": {
+    "ExportItem": {
+      "property_count": 11,
+      "method_count": 0,
+      "event_count": 0
+    },
+    "ExportItemTypes": {
+      "property_count": 1,
+      "method_count": 0,
+      "event_count": 0
+    },
+    "ExportTypes": {
+      "property_count": 6,
+      "method_count": 0,
+      "event_count": 0
+    }
+  }
+}

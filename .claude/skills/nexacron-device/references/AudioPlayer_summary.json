@@ -1,0 +1,24 @@
+{
+  "component": "AudioPlayer",
+  "prefix": "DeviceAPI_AudioPlayer",
+  "file_count": 23,
+  "property_count": 11,
+  "method_count": 6,
+  "event_count": 6,
+  "property_names": [
+    "currentpos",
+    "duration",
+    "id",
+    "name",
+    "pan",
+    "parent",
+    "repeatcount",
+    "startpos",
+    "stoppos",
+    "url",
+    "volume"
+  ],
+  "method_names": ["load", "movePos", "pause", "play", "resume", "stop"],
+  "event_names": ["onerror", "onload", "onmovepos", "onplay", "onplaying", "onstop"],
+  "sub_objects": {}
+}

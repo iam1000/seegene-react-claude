@@ -1,0 +1,12 @@
+{
+  "component": "Vibrator",
+  "prefix": "DeviceAPI_Vibrator",
+  "file_count": 12,
+  "property_count": 6,
+  "method_count": 3,
+  "event_count": 3,
+  "property_names": ["id", "name", "parent", "patterns", "repeatcount", "startpos"],
+  "method_names": ["hasVibrator", "play", "stop"],
+  "event_names": ["onerror", "onplay", "onstop"],
+  "sub_objects": {}
+}

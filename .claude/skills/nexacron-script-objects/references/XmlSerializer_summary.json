@@ -1,0 +1,12 @@
+{
+  "component": "XmlSerializer",
+  "prefix": "Script_Nexacro Objects_XmlSerializer",
+  "file_count": 2,
+  "property_count": 1,
+  "method_count": 1,
+  "event_count": 0,
+  "property_names": ["name"],
+  "method_names": ["serializeToString"],
+  "event_names": [],
+  "sub_objects": {}
+}

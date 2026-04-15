@@ -1,0 +1,12 @@
+{
+  "component": "Phone",
+  "prefix": "DeviceAPI_Phone",
+  "file_count": 1,
+  "property_count": 0,
+  "method_count": 1,
+  "event_count": 0,
+  "property_names": [],
+  "method_names": ["makeCall"],
+  "event_names": [],
+  "sub_objects": {}
+}

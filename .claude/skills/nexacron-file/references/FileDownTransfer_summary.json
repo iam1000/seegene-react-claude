@@ -1,0 +1,31 @@
+{
+  "component": "FileDownTransfer",
+  "prefix": "Components_Component_FileDownTransfer",
+  "file_count": 25,
+  "property_count": 5,
+  "method_count": 18,
+  "event_count": 2,
+  "property_names": ["downloadfilename", "id", "name", "postdatalist", "url"],
+  "method_names": [
+    "addEvent",
+    "addEventHandler",
+    "addEventHandlerLookup",
+    "clearEventHandler",
+    "clearPostDataList",
+    "destroy",
+    "download",
+    "findEventHandler",
+    "getEventHandler",
+    "getPostData",
+    "insertEventHandler",
+    "removeEvent",
+    "removeEventHandler",
+    "removeEventHandlerLookup",
+    "removePostData",
+    "setEventHandler",
+    "setEventHandlerLookup",
+    "setPostData"
+  ],
+  "event_names": ["onerror", "onsuccess"],
+  "sub_objects": {}
+}

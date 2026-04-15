@@ -1,0 +1,142 @@
+[
+  {
+    "input": "Div 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Div",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addChild",
+      "addEvent",
+      "addEventHandler"
+    ],
+    "description": "Div 기본 API 조회"
+  },
+  {
+    "input": "Div의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Div"],
+    "description": "Div.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Div.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "Div"],
+    "description": "Div.addChild() 메서드 상세"
+  },
+  {
+    "input": "Div의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "Div.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "PopupDiv 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "PopupDiv",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addChild",
+      "addEvent",
+      "addEventHandler"
+    ],
+    "description": "PopupDiv 기본 API 조회"
+  },
+  {
+    "input": "PopupDiv의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "PopupDiv"],
+    "description": "PopupDiv.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "PopupDiv.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "PopupDiv"],
+    "description": "PopupDiv.addChild() 메서드 상세"
+  },
+  {
+    "input": "PopupDiv의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "PopupDiv.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "Tab 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Tab",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Tab 기본 API 조회"
+  },
+  {
+    "input": "Tab의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Tab"],
+    "description": "Tab.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Tab.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Tab"],
+    "description": "Tab.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Tab의 canchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["canchange", "function"],
+    "description": "Tab.canchange 이벤트 핸들러"
+  },
+  {
+    "input": "View 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "View",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-rtl-background-image",
+      "addChild",
+      "addEvent",
+      "addEventHandler"
+    ],
+    "description": "View 기본 API 조회"
+  },
+  {
+    "input": "View의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "View"],
+    "description": "View.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "View.addChild() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addChild", "View"],
+    "description": "View.addChild() 메서드 상세"
+  },
+  {
+    "input": "View의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "View.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "GroupBox 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "GroupBox",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "GroupBox 기본 API 조회"
+  },
+  {
+    "input": "GroupBox의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "GroupBox"],
+    "description": "GroupBox.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "GroupBox.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "GroupBox"],
+    "description": "GroupBox.addEvent() 메서드 상세"
+  },
+  {
+    "input": "GroupBox의 oncontextmenu 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["oncontextmenu", "function"],
+    "description": "GroupBox.oncontextmenu 이벤트 핸들러"
+  }
+]

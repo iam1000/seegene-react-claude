@@ -1,0 +1,12 @@
+{
+  "component": "ExternalAPI",
+  "prefix": "DeviceAPI_ExternalAPI",
+  "file_count": 8,
+  "property_count": 3,
+  "method_count": 2,
+  "event_count": 3,
+  "property_names": ["id", "name", "parent"],
+  "method_names": ["execExtAPI", "isAccessible"],
+  "event_names": ["onerror", "onrecvdata", "onsuccess"],
+  "sub_objects": {}
+}

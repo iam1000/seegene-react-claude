@@ -1,0 +1,114 @@
+[
+  {
+    "input": "Button 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Button",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-icon",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Button 기본 API 조회"
+  },
+  {
+    "input": "Button의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Button"],
+    "description": "Button.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Button.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Button"],
+    "description": "Button.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Button의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "Button.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "Static 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Static",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "Static 기본 API 조회"
+  },
+  {
+    "input": "Static의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "Static"],
+    "description": "Static.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "Static.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "Static"],
+    "description": "Static.addEvent() 메서드 상세"
+  },
+  {
+    "input": "Static의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "Static.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "ImageViewer 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "ImageViewer",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "ImageViewer 기본 API 조회"
+  },
+  {
+    "input": "ImageViewer의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "ImageViewer"],
+    "description": "ImageViewer.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "ImageViewer.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "ImageViewer"],
+    "description": "ImageViewer.addEvent() 메서드 상세"
+  },
+  {
+    "input": "ImageViewer의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "ImageViewer.onclick 이벤트 핸들러"
+  },
+  {
+    "input": "ProgressBar 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "ProgressBar",
+      "-nexa-border",
+      "-nexa-edge",
+      "-nexa-padding",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "ProgressBar 기본 API 조회"
+  },
+  {
+    "input": "ProgressBar의 -nexa-border 속성 사용법을 알려줘",
+    "expected_output_contains": ["-nexa-border", "ProgressBar"],
+    "description": "ProgressBar.-nexa-border 속성 사용법"
+  },
+  {
+    "input": "ProgressBar.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "ProgressBar"],
+    "description": "ProgressBar.addEvent() 메서드 상세"
+  },
+  {
+    "input": "ProgressBar의 onclick 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onclick", "function"],
+    "description": "ProgressBar.onclick 이벤트 핸들러"
+  }
+]

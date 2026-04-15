@@ -1,0 +1,19 @@
+{
+  "component": "Sms",
+  "prefix": "DeviceAPI_Sms",
+  "file_count": 16,
+  "property_count": 5,
+  "method_count": 5,
+  "event_count": 6,
+  "property_names": ["id", "message", "name", "parent", "phonenumber"],
+  "method_names": ["deleteMessage", "readMessageList", "recvStart", "recvStop", "sendMessage"],
+  "event_names": [
+    "cansendmessage",
+    "ondeletemessage",
+    "onerror",
+    "onreadmessagelist",
+    "onrecvmessage",
+    "onsendmessage"
+  ],
+  "sub_objects": {}
+}

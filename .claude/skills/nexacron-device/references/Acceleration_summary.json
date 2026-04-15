@@ -1,0 +1,12 @@
+{
+  "component": "Acceleration",
+  "prefix": "DeviceAPI_Acceleration",
+  "file_count": 13,
+  "property_count": 8,
+  "method_count": 3,
+  "event_count": 2,
+  "property_names": ["accuracy", "id", "name", "parent", "timestamp", "xpos", "ypos", "zpos"],
+  "method_names": ["getCurrentAcceleration", "watchStart", "watchStop"],
+  "event_names": ["onrecverror", "onrecvsuccess"],
+  "sub_objects": {}
+}

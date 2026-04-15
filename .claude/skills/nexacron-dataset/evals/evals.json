@@ -1,0 +1,68 @@
+[
+  {
+    "input": "Dataset 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Dataset",
+      "arguments",
+      "binddataobject",
+      "colcount",
+      "addColumn",
+      "addColumnInfo",
+      "addConstColumn"
+    ],
+    "description": "Dataset 기본 API 조회"
+  },
+  {
+    "input": "Dataset의 arguments 속성 사용법을 알려줘",
+    "expected_output_contains": ["arguments", "Dataset"],
+    "description": "Dataset.arguments 속성 사용법"
+  },
+  {
+    "input": "Dataset.addColumn() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addColumn", "Dataset"],
+    "description": "Dataset.addColumn() 메서드 상세"
+  },
+  {
+    "input": "Dataset의 cancolumnchange 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["cancolumnchange", "function"],
+    "description": "Dataset.cancolumnchange 이벤트 핸들러"
+  },
+  {
+    "input": "DataObject 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "DataObject",
+      "data",
+      "enableevent",
+      "id",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "DataObject 기본 API 조회"
+  },
+  {
+    "input": "DataObject의 data 속성 사용법을 알려줘",
+    "expected_output_contains": ["data", "DataObject"],
+    "description": "DataObject.data 속성 사용법"
+  },
+  {
+    "input": "DataObject.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "DataObject"],
+    "description": "DataObject.addEvent() 메서드 상세"
+  },
+  {
+    "input": "DataObject의 ondatachanged 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["ondatachanged", "function"],
+    "description": "DataObject.ondatachanged 이벤트 핸들러"
+  },
+  {
+    "input": "ColumnInfo 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["ColumnInfo", "datapath", "name", "prop"],
+    "description": "ColumnInfo 기본 API 조회"
+  },
+  {
+    "input": "ColumnInfo의 datapath 속성 사용법을 알려줘",
+    "expected_output_contains": ["datapath", "ColumnInfo"],
+    "description": "ColumnInfo.datapath 속성 사용법"
+  }
+]

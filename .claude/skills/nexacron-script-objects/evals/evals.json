@@ -1,0 +1,130 @@
+[
+  {
+    "input": "Date 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Date", "addDate", "addHours", "addMilliseconds"],
+    "description": "Date 기본 API 조회"
+  },
+  {
+    "input": "Date.addDate() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addDate", "Date"],
+    "description": "Date.addDate() 메서드 상세"
+  },
+  {
+    "input": "Decimal 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Decimal", "abs", "addDecimal", "addDouble"],
+    "description": "Decimal 기본 API 조회"
+  },
+  {
+    "input": "Decimal.abs() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["abs", "Decimal"],
+    "description": "Decimal.abs() 메서드 상세"
+  },
+  {
+    "input": "DomParser 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "DomParser",
+      "name",
+      "addEvent",
+      "addEventHandler",
+      "addEventHandlerLookup"
+    ],
+    "description": "DomParser 기본 API 조회"
+  },
+  {
+    "input": "DomParser의 name 속성 사용법을 알려줘",
+    "expected_output_contains": ["name", "DomParser"],
+    "description": "DomParser.name 속성 사용법"
+  },
+  {
+    "input": "DomParser.addEvent() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["addEvent", "DomParser"],
+    "description": "DomParser.addEvent() 메서드 상세"
+  },
+  {
+    "input": "DomParser의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "DomParser.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "Image 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": [
+      "Image",
+      "height",
+      "src",
+      "width",
+      "getBase64String",
+      "setBase64String"
+    ],
+    "description": "Image 기본 API 조회"
+  },
+  {
+    "input": "Image의 height 속성 사용법을 알려줘",
+    "expected_output_contains": ["height", "Image"],
+    "description": "Image.height 속성 사용법"
+  },
+  {
+    "input": "Image.getBase64String() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["getBase64String", "Image"],
+    "description": "Image.getBase64String() 메서드 상세"
+  },
+  {
+    "input": "Image의 onerror 이벤트 핸들러 코드를 작성해줘",
+    "expected_output_contains": ["onerror", "function"],
+    "description": "Image.onerror 이벤트 핸들러"
+  },
+  {
+    "input": "Point 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Point", "x", "y", "clone", "copy", "equals"],
+    "description": "Point 기본 API 조회"
+  },
+  {
+    "input": "Point의 x 속성 사용법을 알려줘",
+    "expected_output_contains": ["x", "Point"],
+    "description": "Point.x 속성 사용법"
+  },
+  {
+    "input": "Point.clone() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["clone", "Point"],
+    "description": "Point.clone() 메서드 상세"
+  },
+  {
+    "input": "Rect 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["Rect", "height", "left", "top", "clear", "clone", "copy"],
+    "description": "Rect 기본 API 조회"
+  },
+  {
+    "input": "Rect의 height 속성 사용법을 알려줘",
+    "expected_output_contains": ["height", "Rect"],
+    "description": "Rect.height 속성 사용법"
+  },
+  {
+    "input": "Rect.clear() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["clear", "Rect"],
+    "description": "Rect.clear() 메서드 상세"
+  },
+  {
+    "input": "XmlSerializer 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["XmlSerializer", "name", "serializeToString"],
+    "description": "XmlSerializer 기본 API 조회"
+  },
+  {
+    "input": "XmlSerializer의 name 속성 사용법을 알려줘",
+    "expected_output_contains": ["name", "XmlSerializer"],
+    "description": "XmlSerializer.name 속성 사용법"
+  },
+  {
+    "input": "XmlSerializer.serializeToString() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["serializeToString", "XmlSerializer"],
+    "description": "XmlSerializer.serializeToString() 메서드 상세"
+  },
+  {
+    "input": "PluginObject 컴포넌트의 주요 속성과 메서드를 알려줘",
+    "expected_output_contains": ["PluginObject", "callMethod", "getProperty", "setProperty"],
+    "description": "PluginObject 기본 API 조회"
+  },
+  {
+    "input": "PluginObject.callMethod() 메서드의 파라미터와 반환값을 알려줘",
+    "expected_output_contains": ["callMethod", "PluginObject"],
+    "description": "PluginObject.callMethod() 메서드 상세"
+  }
+]

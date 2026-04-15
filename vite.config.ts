@@ -1,0 +1,33 @@
+import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
+import path from 'path'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  optimizeDeps: {
+    include: [
+      'dayjs',
+      'dayjs/locale/ko',
+      'dayjs/locale/en',
+      'dayjs/plugin/localeData',
+      'dayjs/plugin/weekday',
+    ],
+  },
+  resolve: {
+    alias: {
+      '#': path.resolve(__dirname, './src'),
+      '@': path.resolve(__dirname, './src'),
+    },
+  },
+  server: {
+    port: 3000,
+    proxy: {
+      '/api': {
+        target: 'https://api-dev.apps.lis-dev.seegenemedical.com',
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/api/, ''),
+      },
+    },
+  },
+})
